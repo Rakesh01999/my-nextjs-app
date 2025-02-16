@@ -1,9 +1,10 @@
+import Sidebar from "@/components/shared/Sidebar";
+
 const DashoboardLayout = ({ children }) => {
   return (
-    <div>
-      <header>Navbar</header>
+    <div className="flex">
+      <Sidebar />
       {children}
-      <footer>Footer</footer>
     </div>
   );
 };
