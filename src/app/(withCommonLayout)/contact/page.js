@@ -1,7 +1,8 @@
+import styles from './Contact.module.css'
 const ContactPage = () => {
   return (
     <div>
-      <h1 className="text-2xl text-center">This is contact page</h1>
+      <h1 className={styles.text_color}>This is contact page</h1>
     </div>
   );
 };
