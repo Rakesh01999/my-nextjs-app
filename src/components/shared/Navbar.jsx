@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="bg-blue-600 text-white py-4 shadow-md">
-      <div className="container mx-auto justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center">
         <a href="/" className="text-2xl font-bold">
           My Site
         </a>
